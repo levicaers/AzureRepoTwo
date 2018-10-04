@@ -3,21 +3,21 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "virtualNetworkName": {
-            "value": "vnet-geba-youngsters"
+            "value": "LECA-Virnetwork"
         },
         "virtualNetworkResourceGroup": {
-            "value": "rg-geba-youngsters-vnet"
+            "value": "LECA-ARM-TEST"
         },
         "subnetName": {
             "value": "dev"
         },
         "availabilitySetName": {
-            "value": "geba-youngsters-as"
+            "value": "LECA-ARM-SET"
         },
         "virtualMachines": {
             "value": [
                 {
-                    "name": "newvm01",
+                    "name": "LECA-VM-ARM",
                     "vmSize": "Standard_B2s",
                     "sku": "2016-Datacenter-smalldisk",
                     "osDiskSize": 64,
@@ -26,12 +26,12 @@
                         "Environment": "Infra",
                         "EnvironmentType": "Dev",
                         "Application": "Multiple VMs",
-                        "TechnicalOwner": "geba@xylos.com",
+                        "TechnicalOwner": "leca@xylos.com",
                         "Importance": "low"
                     }
                 },
                 {
-                    "name": "newvm02",
+                    "name": "LECA-VM-ARM_Two",
                     "vmSize": "Standard_B2s",
                     "sku": "2016-Datacenter-smalldisk",
                     "osDiskSize": 64,
@@ -40,7 +40,7 @@
                         "Environment": "Infra",
                         "EnvironmentType": "Dev",
                         "Application": "Multiple VMs",
-                        "TechnicalOwner": "geba@xylos.com",
+                        "TechnicalOwner": "leca@xylos.com",
                         "Importance": "low"
                     }
                 }
@@ -54,7 +54,7 @@
                 "Environment": "Infra",
                 "EnvironmentType": "Dev",
                 "Application": "Multiple VMs",
-                "TechnicalOwner": "geba@xylos.com",
+                "TechnicalOwner": "leca@xylos.com",
                 "Importance": "low"
             }
         }
